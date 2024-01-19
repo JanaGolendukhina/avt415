@@ -1,21 +1,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index</title>
-
 <link href="css/mainhome.css" rel="stylesheet" type="text/css" media="screen">
-	<style>
-		#left{
-			float: left;
-			width: 50%;
-            height: auto;
-		}
-		#right{
-			float: right;
-			 width: 50%;
-            height: auto;
-		}
-	</style>
+	
 </head>
 	
 <body>
