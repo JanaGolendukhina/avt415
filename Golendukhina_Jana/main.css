@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	font-size: 60px;
+}
+h2{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	font-size: 18px;
+	color: #818181;
+	
+}
+h3{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	font-size: 24px;
+}
+#list{
+	width: auto;
+	height: auto;
+	background-color: lightblue;
+	
+}
+#body{
+	width: 1,648px;
+	height: 2,384px;
+	
+}
