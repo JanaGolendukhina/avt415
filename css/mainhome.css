@@ -1,4 +1,46 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	
+	background-color:black;
+}
+h1{
+	animation: neon 1s infinite alternate;
+	color: greenyellow;
+	font-family:input mono;
+	font-size: 100px;
+	font-weight: 600;
+	font-style: normal;
+}
+h2{
+	font-family:"input-mono-compressed";
+	color:greenyellow;
+}
+h3{
+	font-family:input mono;
+	color:greenyellow;
+}
+h4{
+	font-family:input mono;
+	color:greenyellow;
+}
+ul{
+	color:greenyellow;
+}
+@keyframes neon{
+	to{
+		
+		text-shadow: 
+			0 0 5px  black,
+			0 0 10px black,
+			0 0 15px black,
+			0 0 20px black,
+			0 0 20px green,
+			0 0 35px green,
+			0 0 40px green,
+			0 0 50px green,
+			0 0 75px green;
+	}
+	
 
-
+}
