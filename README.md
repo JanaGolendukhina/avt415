@@ -1,11 +1,27 @@
+<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="css/mainhome.css" rel="stylesheet" type="text/css" media="screen">
-	
+<title>index</title>
+
+	<style>
+		#left{
+			float: left;
+			width: 50%;
+            height: auto;
+		}
+		#right{
+			float: right;
+			 width: 50%;
+            height: auto;
+		}
+	</style>
+	<link href="css/mainhome.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/ntv8tgt.css">
 </head>
 	
 <body>
+	
 	<h1>Golendukhina Jana</h1>
 <h4>avt 415-002 — spring 2023</h4>
 	
@@ -68,3 +84,4 @@
 	
 </body>
 </html>
+
