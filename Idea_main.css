@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	box-sizing: border-box;
+	color: red;
+}
+h1{
+	font-family: "altivo", sans-serif;
+	font-size: 15em;
+	font-weight: 700;
+	font-style: normal;
+
+}
+h2{
+	font-family: "altivo", sans-serif;
+	font-size: 5em;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20pt;
+	text-align: center;
+}
+h3{
+	font-family: "altivo", sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20pt;
+	color: orangered;
+}
+p{
+	font-family: "altivo", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+	color: azure;
+	width: 300px;
+	line-height: 25px;
+	text-align: left;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+	
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+	
+}
+.link{
+	padding-top: 30px;
+	align-content: flex-end;
+	alignment-baseline: bottom;
+}
+/* Clear floats after the columns */
+.row:after {
+	
+  content: "";
+  display: table;
+  clear: both;
+}
+.inside{
+	
+	padding-left: 45px;
+	align-content: center;
+}
