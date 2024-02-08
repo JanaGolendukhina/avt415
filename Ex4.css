@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+element.style {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -9999px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+iframe {
+ 
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+body {
+	
+    margin: 100px;
+    font-family: Arial,sans-serif;
+    font-size: 1.125rem;
+    color: #000;
+    letter-spacing: 0;
+}
+
+*, *:before, *:after {
+	
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
