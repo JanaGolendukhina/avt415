@@ -7,9 +7,11 @@ element.style {
     width: 1px;
     height: 1px;
     top: -9999px;
+	
 }
 *, *:before, *:after {
     box-sizing: inherit;
+	
 }
 user agent stylesheet
 iframe {
@@ -18,21 +20,37 @@ iframe {
     border-style: inset;
     border-color: initial;
     border-image: initial;
+	
+	
 }
 
 
 body {
 	
-    margin: 100px;
+    margin: 150px;
     font-family: Arial,sans-serif;
     font-size: 1.125rem;
     color: #000;
     letter-spacing: 0;
+	
+}
+.column{
+	color:dimgray;
+	
 }
 
+strong{
+	color: crimson;
+}
+
+h1{
+	color: crimson;
+	font-size: 57px;
+}
 *, *:before, *:after {
 	
     box-sizing: inherit;
+	
 }
 *, *:before, *:after {
     box-sizing: inherit;
