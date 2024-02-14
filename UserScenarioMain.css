@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    padding-left: 100px;
+    background-color: ghostwhite;
+    background-blend-mode: darken;
+    background-size: 70px;
+
+    font-family: "pc";
+    image-rendering: pixelated;
+    color:red;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.9;
+  }
+
+  @font-face {
+    font-family: pc;
+    src: url(https://dl.dropbox.com/scl/fi/9jnbuqaa5nag1ssaolryw/Windows-Regular.ttf?rlkey=e6fq60imuapnuhl3vh51teg7x&dl=0);
+  }
+
+  #base {
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
+
+
+
+  #center {
+    width: 700px;
+	  padding-left: 350px;
+    
+  }
+
+
+
+
+  
+  #top {
+    background-image: linear-gradient(red 70%, white);
+    width: 660px;
+    height: 90px;
+    padding-top: 80px;
+    background-position: 10% 10px;
+    background-size: 700px;
+    margin: auto;
+    box-shadow: inset 13px 0px 5px -10px #fff, inset 13px 0px 60px -10px #fff, inset -13px 0px 5px -10px #fff, inset -13px 0px 60px -10px #fff;
+  }
+
+  
+
+  h1 {
+	position: absolute;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: "pc";
+    color: white;
+  }
+
+  #display {
+    display: flex;
+    width: 640px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+ 
+
+  .nice {
+    width: 100px;
+    position: absolute;
+    top: 131;
+    margin-left: -10px;
+    font-size: 20px;
+    color: red;
+    text-shadow: -2px 1px red, 0 2px red, 2px 0 red, 0 -2px red, 0 0;
+    line-height: 1;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+ 
+
+ 
+  #icon {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-size: cover;
+	background-image: url(https://i.pinimg.com/564x/d1/08/06/d108064a623069d919b8877024deb440.jpg);
+}
+
+  #text {
+    border-top: 1px dotted red;
+    border-bottom: 1px dotted red;
+    font-weight: bold;
+    text-color: aliceblue;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+
+
+  #box2 {
+    border-radius: 5px;
+    border: 3px solid red;
+    padding: 10px;
+    background-color: red;
+    background-size: 30px;
+    background-position: 45%;
+  }
+
+  #inner2 {
+    height: 500px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px dotted red;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    color: white;
+    text-shadow: -2px 1px red, 0 2px red, 2px 0 red, 0 -2px red, 0 0;
+    font-size: 17px;
+  }
+
+ 
+  
+ 
+
+
+  
