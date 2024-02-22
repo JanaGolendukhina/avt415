@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Styles for browser window is widder than 800px */
+* {
+	
+  box-sizing: border-box;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width:100%;
+	margin: auto;
+	
+}
+.about{
+	
+	
+}
+h3{
+	padding-bottom: 10px;
+}
+footer{
+	
+	align-content: center;
+	width: 100%;
+	
+	background-color:#DEDEDB;
+	
+}
+#image{
+	width: 76px;
+	height: 70px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	background-size: cover;
+	background-image: url("file:///Untitled/Users/janagl/Documents/GitHub/avt415/1x/Artboard%201.png")
+}
+.flex-container{
+	padding-bottom: 50px;
+	display:flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.flex-item-left{
+	flex:15%;
+	float: left;
+	padding-left: 100px;
+}
+.flex-item-center{
+	padding-top: 5%;
+		padding-left: 100px;
+	
+	flex:10%;
+}
+.flex-item-right{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 6%;
+	
+	flex:30%;
+		float: right;
+}
+.footer-bottom{
+
+	width: auto;
+	text-align:center;
+	background-color: #fff;
+	padding-top: 15px;
+}
+
+/* Start: tell browser to do the followings when browser window is 800px or smaller */
+  @media only screen and (max-width: 800px) {
+
+
+
+
+} /* don't forget to close the styles for 800px and smaller */
